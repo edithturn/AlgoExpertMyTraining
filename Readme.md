@@ -3,6 +3,12 @@
 ## Client Server Model
 
 
+<p align="center">
+  <img width="460" height="460" src="img/client-server_model.png">
+</p>
+
+
+## Utilities
 netcat  or nc, is command used to any operation in Linux to TCP, UDP, or UNIX domains sockets.
 
 ```console
