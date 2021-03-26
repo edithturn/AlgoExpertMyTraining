@@ -2,13 +2,12 @@
 
 ## Client Server Model
 
-
 <p align="center">
   <img width="460" height="460" src="img/client-server_model.png">
 </p>
 
 
-## Utilities
+### Utilities
 netcat  or nc, is command used to any operation in Linux to TCP, UDP, or UNIX domains sockets.
 
 ```console
@@ -24,6 +23,35 @@ nc 127.0.0.1 8081
 
 ```
 
+## Network Protocols
+IP [Internete Protocol], TCP [Transmition Control Protocol], HTTP [Hypertext Transfer Protocol ]
 
 
+what are the two sections of the IP packages?
+* Header : keeps the information in bites about source Ip address, destination IP address, total size of the package, and version of the internet protocol of the Internet Protocol.
+* Data: 
+
+Request: 
+GET: Retrieve data from the server
+POST: Provided date from the server
+DELETE: Asking the server to delete some data
+
+```console
+edith@edithcp:~$ curl localhost:3000/hello
+```
+
+## Storage
+
+* Write
+* Read
+* Disk
+* Persistence
+* Memory
+
+If we write data in Disk It is going to be there 
+If we save data in Memory and if our server crash we won{t save the data.
+
+Why use memory instead of disk?
+
+read/write data from memory is much faster than writing/read data from disk
 
