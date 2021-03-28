@@ -55,3 +55,28 @@ Why use memory instead of disk?
 
 read/write data from memory is much faster than writing/read data from disk
 
+## Latency and Throughput
+
+
+### Latency
+How long takes data to traverse a System
+
+- hight latency : take more time
+- Low latency : take less time
+
+
+### Throughput
+How many of requests can the server handle in a specific time.
+
+
+
+## Availability
+How resistant a system is to a failures. 
+
+SLA (Service level agreement): agreament between server provider and the customers.
+SLO: Server Level Objective, The garantee to provide a service.
+
+
+* Single points of failure: it this fails all the system fail
+
+* Redundancy: It is duplicated, triplicated a specific part of our system. 
