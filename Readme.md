@@ -80,3 +80,16 @@ SLO: Server Level Objective, The garantee to provide a service.
 * Single points of failure: it this fails all the system fail
 
 * Redundancy: It is duplicated, triplicated a specific part of our system. 
+
+
+## Caching
+
+It is use to rspeed up the system and improve the **latency** of the system
+
+### Write through cache:
+Where when we write a pice of data, our system will write in the cache and in the data base at the same time.
+
+### Write back cache:
+Our server will update the cache and will back to the client, our system will asynchronously update the database with the values of the cache.
+
+
