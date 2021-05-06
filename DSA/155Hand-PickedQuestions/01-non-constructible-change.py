@@ -13,3 +13,7 @@ def nonConstructibleChange(coins):
 		
 coins =[5, 7, 1, 1, 2, 3, 22]
 print(nonConstructibleChange(coins))
+
+
+# Time Complexity: O(logn) for sorting, O(n) for searching.
+# Space Complexity: O(1)
